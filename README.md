@@ -1,24 +1,9 @@
-# README
+# Rails application [Live app](https://fathomless-springs-99521.herokuapp.com/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## In progress
 
-Things you may want to cover:
+- Using devise for authentication
+- Github Oauth
+- Mailgun for email delivery
+- RSpec for testing
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
