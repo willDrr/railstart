@@ -1,16 +1,19 @@
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
+  username: <%= ENV["DB_USER"] %> 
+  password: <%= ENV["APP_DATABASE_PASSWORD"] %> 
+  port: <%= ENV["APP_PORT"] %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  database: blogdos_development 
 
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: blogdos_test 
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: blogdos_production 
