@@ -62,3 +62,5 @@ gem "tailwindcss-rails", "~> 2.0"
 gem "dotenv-rails", "~> 2.7", :groups => [:development, :test]
 
 gem "devise", "~> 4.8"
+
+gem "mailgun-ruby", "~> 1.2"
