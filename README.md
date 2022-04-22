@@ -3,7 +3,7 @@
 ## In progress
 
 - Using devise for authentication
+- Postgresql
 - Github Oauth
-- Mailgun for email delivery
 - RSpec for testing
 - Tailwind for styling
